@@ -12,9 +12,29 @@ CodeLingo is a Python library that converts code snippets into plain English. It
 
 ---
 
+## Usage
+
+You can use CodeLingo using this Code :
+
+from CodeLingo import CodeToEnglish
+
+code = """
+put your python code in here
+"""
+
+converter = CodeToEnglish(code)
+explanation = converter.convert_to_english()
+print("Explanation:\n", explanation)
+
+output = converter.execute_code()
+print("Output:\n", output)
+
+---
+
 ## Installation
 
 You can install CodeLingo using `pip`:
 
 ```bash
 pip install CodeLingo
+
