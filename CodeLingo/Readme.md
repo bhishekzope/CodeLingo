@@ -18,6 +18,7 @@ You can install CodeLingo using `pip`:
 
 ```bash
 pip install CodeLingo
+```
 
 ---
 
@@ -25,6 +26,7 @@ pip install CodeLingo
 
 You can use CodeLingo using this Code :
 
+```python
 from CodeLingo import CodeToEnglish
 
 code = """
@@ -37,3 +39,4 @@ print("Explanation:\n", explanation)
 
 output = converter.execute_code()
 print("Output:\n", output)
+```
